@@ -18,3 +18,21 @@ A two-file dependent encryption mechanism
 - The encrypted content
 
 4. During decryption, both files are required to retrieve the necessary keys and reconstruct the original data.
+
+**How to Run**:
+
+1. Create two files in root dir:
+
+- Example:
+
+bit.txt and coin.txt
+
+2. Run encrypt.rs to encrypt your files:
+```
+cargo run --bin encrypt
+```
+
+3. Run decrypt.rs to decrypt your files:
+```
+cargo run --bin decrypt
+```
